@@ -11,8 +11,12 @@ const Developer = (props) => {
         <p>Country : {country}</p>
         <p>Salary : {salary}</p>
         <p>Skills : {skills}</p>
-        <button type="button" className="btn btn-primary mb-2">
-          <box-icon name="heart" type="solid"></box-icon>
+        <button
+          onClick={() => props.handleBtn(props.data)}
+          type="button"
+          className="btn btn-primary mb-2"
+        >
+          <i className="fas fa-heart pe-2"></i>
           add favourite
         </button>
       </div>

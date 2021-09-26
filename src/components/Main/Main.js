@@ -8,7 +8,10 @@ const Main = () => {
   const [data, setData] = useState(myData);
   const [cart, setCart] = useState([]);
 
-  const handleBtn = () => {};
+  const handleBtn = () => {
+    const newCart = [...cart, data];
+    setCart(newCart);
+  };
   return (
     <div className="main">
       <div className="developer">
@@ -17,7 +20,7 @@ const Main = () => {
         ))}
       </div>
       <div className="favourite">
-        <Favourite></Favourite>
+        <Favourite cart={cart} />
       </div>
     </div>
   );
