@@ -1,8 +1,9 @@
 .header {
-  background-color: rgb(189, 245, 153);
+  background-color: #6abcff;
   height: 250px;
   width: 60%;
   margin: 0 auto;
   text-align: center;
   padding: 30px;
+  color: #fff;
 }

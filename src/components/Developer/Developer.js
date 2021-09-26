@@ -11,6 +11,7 @@ const Developer = (props) => {
         <p>Country : {country}</p>
         <p>Salary : {salary}</p>
         <p>Skills : {skills}</p>
+
         <button
           onClick={() => props.handleBtn(props.data)}
           type="button"
