@@ -1,0 +1,16 @@
+.developer {
+  margin-top: 40px;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 20px;
+}
+.main {
+  display: flex;
+}
+.favourite {
+  margin-top: 40px;
+  width: 25%;
+  margin-left: 50px;
+}
