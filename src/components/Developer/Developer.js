@@ -2,7 +2,7 @@ import React from "react";
 import "./Developer.css";
 
 const Developer = (props) => {
-  const { name, skills, country, salary, img } = props.data;
+  const { name, skills, country, salary, img, course } = props.data;
   return (
     <div className="card">
       <div className="text-center">
@@ -11,6 +11,7 @@ const Developer = (props) => {
         <p>Country : {country}</p>
         <p>Salary : {salary}</p>
         <p>Skills : {skills}</p>
+        <p>Paid Course : {course} </p>
 
         <button
           onClick={() => props.handleBtn(props.data)}

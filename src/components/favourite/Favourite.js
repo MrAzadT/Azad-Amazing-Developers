@@ -14,7 +14,7 @@ const Favourite = (props) => {
 
   return (
     <div>
-      <h1> Favourite List</h1>
+      <h1> Favourite List: </h1>
       <h3> Total : {cart.length}</h3>
       <h3> Total Salary : $ {totalSalary}</h3>
       <h2>
