@@ -5,7 +5,7 @@ const myData = [
     skills: "Full Stack Web Developer",
     country: "United States",
     salary: "$200000",
-    img: "https://res.cloudinary.com/abidazad/image/upload/v1632631791/code-with-harry_xwvpmh.jpg",
+    img: "https://res.cloudinary.com/abidazad/image/upload/v1632631652/Brad_Traversy_x2ok5r.jpg",
   },
   {
     id: 2,
@@ -120,3 +120,5 @@ const myData = [
     img: "",
   },
 ];
+
+export default myData;
